@@ -65,20 +65,58 @@ For Roboto: font-family: 'Roboto Mono', monospace; */
   body {
     font-family: 'Roboto Mono', monospace;
     line-height: 1;
+    text-align: center;
 
   }
 
-  nav {
-    padding:2% 0;
+.linksplan {
+    color: white;
+    background-color: red;
+    margin: 5%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display:inline-block;
+    padding:1% 1%;
     border-radius:10px;
-    border: 0;
-    transition:2s;
-  }
+}
+.linksplan:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
 
-  .yoseimg {
-    display: inline-block;
-    border-radius: 50%;
-  }
+.linkslearn {
+    color: white;
+    background-color: blue;
+    margin: 5%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display:inline-block;
+    padding:1% 1%;
+    border-radius:10px;
+}
+.linkslearn:hover {
+    color: blue;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.linksinvolve {
+    color: white;
+    background-color: gold;
+    margin: 5%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display:inline-block;
+    padding:1% 1%;
+    border-radius:10px;
+}
+.linksinvolve:hover {
+    color: gold;
+    background-color: white;
+    transition: 0.5s;
+}
+
 
   .fireimg {
       width: 200px;
@@ -88,10 +126,16 @@ For Roboto: font-family: 'Roboto Mono', monospace; */
       width: 200px;
   }
 
+  .yoseimg {
+    display: inline-block;
+    border-radius: 50%;
+  }
+
   header {
       display: inline-block;
       font-family: 'Chelsea Market', cursive;
       font-size: 5rem;
+      text-align: center;
   }
 
   .plan {
@@ -99,19 +143,44 @@ For Roboto: font-family: 'Roboto Mono', monospace; */
       font-family: 'Roboto Mono', monospace;
       font-size: 1.2rem;
       width: 50%
-
+      text-align: center;
   }
 
   .learn {
     font-family: 'Roboto Mono', monospace;
-    display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     width: 90%;
     background-color: #DDB9A3;
     color: white;
-    padding: 1% 1%;
+    margin:5%;
+    padding: 1%;
+    text-align: center;
  }
 
+ .fire {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 0 40% 0;
+ }
+
+ .involve {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 0 40% 0;
+ }
  .footerimg {
-
+    height: 50%;
+    width: 100%;
+    background-position:center;
+    background-attachment:fixed;
  }
+
+ .footerlinks {
+    padding:2% 0;
+    border-radius:10px;
+    border: 0;
+    transition:2s;
+    text-align: center;
+    background-color: #F9E7DC;
+  }
+
