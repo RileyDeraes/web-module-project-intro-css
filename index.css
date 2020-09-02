@@ -125,12 +125,56 @@ For Roboto: font-family: 'Roboto Mono', monospace; */
     background-attachment:fixed;
  }
 
- .footerlinks {
-    padding:2% 0;
+
+
+.footerplan {
+    color: white;
+    background-color: red;
+    margin: 5%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display:inline-block;
+    padding:1% 1%;
     border-radius:10px;
-    border: 0;
-    transition:2s;
+}
+.footerplan:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.footerlearn {
+    color: white;
+    background-color: blue;
+    margin: 5%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display:inline-block;
+    padding:1% 1%;
+    border-radius:10px;
+}
+.footerlearn:hover {
+    color: blue;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.footerinvolve {
+    color: white;
+    background-color: gold;
+    margin: 5%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display:inline-block;
+    padding:1% 1%;
+    border-radius:10px;
+}
+.footerinvolve:hover {
+    color: gold;
+    background-color: white;
+    transition: 0.5s;
+}
+.footerlinks {
     text-align: center;
     background-color: #F9E7DC;
   }
-
