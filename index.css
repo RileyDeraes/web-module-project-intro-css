@@ -110,19 +110,17 @@ For Roboto: font-family: 'Roboto Mono', monospace; */
  .fire {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    padding: 0 40% 0;
+    padding: 0 37% 8%;
  }
 
  .involve {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    padding: 0 40% 0;
+    padding: 0 37% 8%;
  }
- .footerimg {
-    height: 50%;
-    width: 100%;
-    background-position:center;
-    background-attachment:fixed;
+ .footermount {
+     width: auto;
+     max-height: 25%;
  }
 
 
@@ -178,3 +176,7 @@ For Roboto: font-family: 'Roboto Mono', monospace; */
     text-align: center;
     background-color: #F9E7DC;
   }
+
+p strong {
+    font-weight: bold;
+}
